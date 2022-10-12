@@ -1,0 +1,36 @@
+.dropdownButton{
+    background: #017bff !important;
+    border:none !important;
+ 
+}
+
+.dropdownButton:hover{
+    background: #017bff !important;
+    border:none !important;
+   
+}
+
+.dropdownButton:focus{
+    background: #0066D3 !important;
+    border:none !important;
+    box-shadow: none !important;
+   
+}
+
+#logo{
+    width: 60px;
+ 
+}
+
+.favAndTrash{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trash{
+    margin:3px 0 0 8px;
+}
+
+.badge{
+    margin:0 8px 0 8px;
+}

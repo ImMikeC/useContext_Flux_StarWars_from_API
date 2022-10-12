@@ -1,0 +1,22 @@
+.titulo{
+    color: red;
+    
+}
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu .hola {
+   display: inline-block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+
+}
+div.scrollmenu .hola:hover {
+  background-color: #777;
+}
+.corazon{
+color: black;
+}
