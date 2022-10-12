@@ -14,9 +14,12 @@ export const CharacterCard = props => {
 
 	let isFavorite = store.favorites.includes(props.character.name);
 
+	let figuritas = props.index + 1
+	console.log(figuritas)
+
 	return (
 		<div className="card">
-			<img src={img400x200} className="card-img-top" alt="..." style={{ width: "300px" }} />
+			<img src={"https://starwars-visualguide.com/assets/img/characters/" + figuritas + ".jpg"} className="card-img-top" alt="..." style={{ width: "300px" }} />
 			<div className="card-body">
 				<h5 className="card-title">{props.character.name}</h5>
 				<p className="card-text">Gender: {props.character.gender}</p>
